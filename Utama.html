@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Couple Day</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, rgba(255, 192, 203, 0.9), rgba(255, 105, 180, 0.8)), url('romantic-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 150px;
+            overflow: hidden;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .image-row img {
+            width: 40%;
+            max-width: 150px;
+            margin: 0 15px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-row img:hover {
+            transform: scale(1.1);
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+            margin: 20px 0;
+            text-align: center;
+            text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+            animation: fadeInUp 2s ease-out;
+            padding: 0 20px;
+            background: rgba(255, 105, 180, 0.7);
+            border-radius: 10px;
+        }
+
+        .message, .message-2 {
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            line-height: 1.8;
+            max-width: 80%;
+            margin: 10px;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        .message {
+            margin-bottom: 20px;
+        }
+
+        .message-2 {
+            font-size: 16px;
+            padding: 15px;
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .message p, .message-2 p {
+            margin: 10px 0;
+        }
+
+        .button-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        .next-button, .no-button {
+            padding: 12px 25px;
+            font-size: 18px;
+            text-align: center;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .next-button {
+            background-color: #ff69b4;
+        }
+
+        .no-button {
+            background-color: #b0b0b0;
+        }
+
+        .next-button:hover {
+            background-color: #ff1493;
+            transform: scale(1.05);
+        }
+
+        .no-button:hover {
+            background-color: #8e8e8e;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="CpDay.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="image-row">
+        <img src="ine.jpeg" alt="Image 1">
+        <img src="opik.jpeg" alt=d"Image 2">
+    </div>
+
+    <div class="title">Happy Anniversary Cantik</div>
+
+    <div class="message">
+        <p>Happy anniversary Sayang, gak kerasa ya kita udah sejauh ini jalan sama sama, semoga kita bisa terus bareng bareng ya, makasih ya kamu udah jadi rumah ternyamanku saat ini, makasih juga kamu udah jadi pasangan terbaik, semoga apapun yang kita rencanakan bisa tercapai sama sama aminn maaf ya kalo aku masih ada kurang kurangnya, tapi kamu jangan khawatir aku terus berusaha menjadi pasangan yang terbaik buat kamu dan semoga kita adalah orang yang sama sama takut akan kehilangan ya,
+
+            pokonya aku seneng banget kamu telah hadir dikehidupanku, love u🤍
+        </p>
+    </div>
+
+    <div class="message-2">
+        <p>Kamu Sayang Aku Terus Yahhh?^_^</p>
+    </div>
+
+    <div class="button-row">
+        <a href="https://wa.me/625156972527?text=Terimakasih" class="next-button">Iyahhh Sayangg</a>
+        <a href="No.html" class="no-button">Tidak Mau Ah</a>
+    </div>
+
+</body>
+</html>
